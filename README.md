@@ -10,8 +10,12 @@ Abaixo a diferença entre os container e máquina virtual (virtual box)
 
 ![Containers X Virtualizadores](images/lxc-vm.jpg)
 
+## Instalação do Docker
 
-## Containers
+Instalando o docker no mac. https://docs.docker.com/docker-for-mac/install/
+
+
+### Containers
 Container nada mais é do que um ambiente isolado contido em um servidor que, diferentemente das máquinas virtuais, divide um único host de controle.
 
 
@@ -38,9 +42,6 @@ O argumento -p permite que você direcione uma porta do host (sua máquina local
 
     Listar imagens
     $docker images
-
-    Buscando uma imagens
-    $docker search ubuntu
 
     Buscando uma imagens
     $docker search ubuntu
@@ -75,10 +76,10 @@ O argumento -p permite que você direcione uma porta do host (sua máquina local
 
 ### Exemplos
     
-    #Apache e php7.4
+    Apache e php7.4
     $docker run -d -p 80:80 -v ~/Documents/meu_site/:/var/www/html php:7.4-apache
 
-### Hacks
+### Alguns hacks para facilitar a vida.
 
     Para todos os containners
     $docker stop $(docker ps -a -q)
@@ -94,6 +95,7 @@ O argumento -p permite que você direcione uma porta do host (sua máquina local
 
 Lista de itens a serem incluídos no curso
 
+- [ ] Instalação do docker nos windows
 - [ ] Commit, PULL E PUSH em images
 - [ ] Docker Compose
 - [ ] Dockerfile
