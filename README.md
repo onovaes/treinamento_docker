@@ -2,9 +2,9 @@
 
 ## Introdução
 
- O Docker é uma plataforma de código aberto para criação de ambientes isolados via container. 
+O Docker é uma plataforma de código aberto para criação de ambientes isolados via container. 
 
-[Containers X Virtualizadores](images/lxc-vm.jpg)
+![Containers X Virtualizadores](images/lxc-vm.jpg)
 
 ## Containers
 
