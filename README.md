@@ -80,6 +80,9 @@ O argumento -p permite que você direcione uma porta do host (sua máquina local
     Containers auto destrutivos. Com comando --rm, podemos montar containers que se destroem ao sairmos da sessão.
     $docker run -it --rm -p 8080:80 nginx bash
 
+    Remove containers, networks, images e caches não usados
+    $docker system prune
+
 ### Exemplos
     
     Apache e php7.4
@@ -102,7 +105,9 @@ O argumento -p permite que você direcione uma porta do host (sua máquina local
 Lista de itens a serem incluídos no curso
 
 - [ ] Instalação do docker nos windows
+- [ ] Docker Build
 - [ ] Commit, PULL E PUSH em images
+- [ ] Networks
 - [ ] Docker Compose
 - [ ] Dockerfile
 - [ ] DockeSwarm
