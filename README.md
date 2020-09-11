@@ -1,6 +1,6 @@
 # Treinamento docker
 
-O objetivo desse curso é fornecer informações básicas sobre docker para desenvolvedores.
+O objetivo desse curso é fornecer informações básicas de docker para desenvolvedores.
 
 ## Introdução
 
