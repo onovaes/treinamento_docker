@@ -59,6 +59,12 @@ O argumento -p permite que você direcione uma porta do host (sua máquina local
     Criar um container com um apelido
     $docker run --name ubuntinho ubuntu
 
+    Entrando num container em execução
+    $docker exec -it [container-id] bash
+
+    Enviando comando para o container (sem entrar no container)
+    $docker exec -it [container-id] ls -la
+
     Listar containers em execução
     $docker ps
 
