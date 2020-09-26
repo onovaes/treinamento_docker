@@ -111,3 +111,20 @@ Lista de itens a serem incluídos no curso
 - [ ] Docker Compose
 - [ ] Dockerfile
 - [ ] DockeSwarm
+
+### Instalação no windows
+
+Este procedimento de instalação são para as versões windows 10 pro ou superiores que
+atendam as especificações e requisitos de sistema descritos abaixo.
+
+**********
+Requisitos
+**********
+
+-  `Windows 10 de 64 bits: Pro, Enterprise ou Education (Build 16299 ou posterior).`
+-  `For Windows 10 Home, see Install Docker Desktop on [Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)`
+-  `Hyper-V e containers precisam estar habilitados.`
+
+Para habilitar o hyper-v no windows, basta ir no menu iniciar e pesquisar por recursos do windows.
+Após isso será necessário abrir o aplicativo de recursos. Portanto, com a janela aberta procure por
+seleção de Hyper-V.
