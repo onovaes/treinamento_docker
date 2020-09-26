@@ -128,3 +128,4 @@ Requisitos
 Para habilitar o hyper-v no windows, basta ir no menu iniciar e pesquisar por recursos do windows.
 Após isso será necessário abrir o aplicativo de recursos. Portanto, com a janela aberta procure por
 seleção de Hyper-V.
+
